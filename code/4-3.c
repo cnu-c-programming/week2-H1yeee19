@@ -4,7 +4,9 @@ int main()
 {
     int a;
     scanf("%d", &a);
-    if ( a == 1 || a ==2 )
+    if ( a == 1 )
+        printf("false");
+    if ( a == 2 )
         printf("true");
     if ( a >2){
         for (int i=2; i<a; i++) {
@@ -13,9 +15,7 @@ int main()
                  break;
             }
             else
-             { printf("true");
-              break;
-             }
+                printf("true");
         }
     return 0;
     }
