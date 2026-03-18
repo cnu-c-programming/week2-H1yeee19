@@ -9,9 +9,13 @@ int main()
     if ( a >2){
         for (int i=2; i<a; i++) {
             if (a%i == 0)
-                printf("false");
+            {    printf("false");
+                 break;
+            }
             else
-                printf("true");
+             { printf("true");
+              break;
+             }
         }
     return 0;
 }
